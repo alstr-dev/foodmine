@@ -1,0 +1,75 @@
+<div class="flex justify-center mt-16">
+    <div class="w-full max-w-md bg-white rounded-lg shadow-lg p-6 space-y-4">
+        <h2 class="text-2xl font-semibold text-center text-gray-700">Login to Your Account</h2>
+        <p class="text-center text-gray-500">Please sign in to continue</p>
+
+        <form action="#" method="POST" class="space-y-6">
+            <!-- Email Field -->
+            <div>
+                <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                <input type="email" id="email" name="email" required
+                    class="w-full px-4 py-2 mt-1 bg-gray-50 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+            </div>
+
+            <!-- Password Field -->
+            <div>
+                <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+                <input type="password" id="password" name="password" required
+                    class="w-full px-4 py-2 mt-1 bg-gray-50 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+            </div>
+
+            <!-- Remember Me -->
+            <div class="flex items-center justify-between">
+                <label for="remember" class="flex items-center text-sm text-gray-600">
+                    <input type="checkbox" id="remember" name="remember"
+                        class="h-4 w-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                    <span class="ml-2">Remember me</span>
+                </label>
+                <a href="#" class="text-sm text-blue-500 hover:underline">Forgot password?</a>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit"
+                class="w-full py-2 bg-blue-600 text-white rounded-md font-semibold hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Sign
+                in</button>
+        </form>
+
+        <!-- Sign Up Link -->
+        <p class="text-center text-sm text-gray-600">Don't have an account? <a href="#"
+                class="text-blue-500 hover:underline">Sign up</a></p>
+    </div>
+</div>
+
+
+
+<!-- Featured Dishes Section -->
+<section class="py-16 bg-gray-50">
+    <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl font-semibold text-gray-700 mb-6">Featured Dishes</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Dish 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="https://source.unsplash.com/400x300/?burger" alt="Burger"
+                    class="w-full h-48 object-cover rounded-t-lg">
+                <h3 class="mt-4 text-xl font-semibold text-gray-700">Classic Cheeseburger</h3>
+                <p class="mt-2 text-gray-600">$12.99</p>
+            </div>
+
+            <!-- Dish 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="https://source.unsplash.com/400x300/?pizza" alt="Pizza"
+                    class="w-full h-48 object-cover rounded-t-lg">
+                <h3 class="mt-4 text-xl font-semibold text-gray-700">Italian Margherita Pizza</h3>
+                <p class="mt-2 text-gray-600">$15.99</p>
+            </div>
+
+            <!-- Dish 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <img src="https://source.unsplash.com/400x300/?salad" alt="Salad"
+                    class="w-full h-48 object-cover rounded-t-lg">
+                <h3 class="mt-4 text-xl font-semibold text-gray-700">Fresh Garden Salad</h3>
+                <p class="mt-2 text-gray-600">$9.99</p>
+            </div>
+        </div>
+    </div>
+</section>
